@@ -1,0 +1,781 @@
+[
+  {
+    "element_id": "5dba1e9539149f9dd7c6549035928acd",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            196.6,
+            33.6
+          ],
+          [
+            196.6,
+            51.6
+          ],
+          [
+            398.6,
+            51.6
+          ],
+          [
+            398.6,
+            33.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1
+    },
+    "text": "STATEMENT OF WORK",
+    "type": "Header"
+  },
+  {
+    "element_id": "03dfe1f8a1263dd538a49664a9444771",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            70.6
+          ],
+          [
+            31.2,
+            82.6
+          ],
+          [
+            228.6,
+            82.6
+          ],
+          [
+            228.6,
+            70.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "SOW Reference: SOW-2024-Q1-042",
+    "type": "Title"
+  },
+  {
+    "element_id": "c65b67824721683a8fb368d52828484e",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            93.3
+          ],
+          [
+            31.2,
+            105.3
+          ],
+          [
+            205.3,
+            105.3
+          ],
+          [
+            205.3,
+            93.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Effective Date: January 10, 2024",
+    "type": "Title"
+  },
+  {
+    "element_id": "79a9d4043ddcf9f2a4a1d1a49d7e58ff",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            116.0
+          ],
+          [
+            31.2,
+            128.0
+          ],
+          [
+            225.3,
+            128.0
+          ],
+          [
+            225.3,
+            116.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Expiration Date: December 31, 2024",
+    "type": "Title"
+  },
+  {
+    "element_id": "2371c3f799856e5e403914a6071359a1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            152.3
+          ],
+          [
+            31.2,
+            165.3
+          ],
+          [
+            151.1,
+            165.3
+          ],
+          [
+            151.1,
+            152.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "79a9d4043ddcf9f2a4a1d1a49d7e58ff"
+    },
+    "text": "1. Project Overview",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "130b83354c01172957b4639a0152dd20",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            175.5
+          ],
+          [
+            31.2,
+            187.5
+          ],
+          [
+            283.2,
+            187.5
+          ],
+          [
+            283.2,
+            175.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Project Name: E-Commerce Platform Redesign",
+    "type": "Title"
+  },
+  {
+    "element_id": "fdeb6a09764f8c7ce65990335c967cec",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            198.2
+          ],
+          [
+            31.2,
+            210.2
+          ],
+          [
+            156.6,
+            210.2
+          ],
+          [
+            156.6,
+            198.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Client: GlobalRetail Inc.",
+    "type": "Title"
+  },
+  {
+    "element_id": "6637f5a5d20dca37327f25af40db6c22",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            220.9
+          ],
+          [
+            31.2,
+            232.9
+          ],
+          [
+            242.6,
+            232.9
+          ],
+          [
+            242.6,
+            220.9
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Vendor: Digital Transformation Partners",
+    "type": "Title"
+  },
+  {
+    "element_id": "373ef8b03eed9dd997ec2306a9094798",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            243.5
+          ],
+          [
+            31.2,
+            255.5
+          ],
+          [
+            302.8,
+            255.5
+          ],
+          [
+            302.8,
+            243.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Project Manager: Sarah Johnson (sarah@dtp.com)",
+    "type": "Title"
+  },
+  {
+    "element_id": "3e0aa1b781a418522ef893fb5efa61da",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            274.2
+          ],
+          [
+            31.2,
+            287.2
+          ],
+          [
+            136.6,
+            287.2
+          ],
+          [
+            136.6,
+            274.2
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "2. Scope of Work",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "c36e08b7eb57f481f91565b37dc107a5",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            297.4
+          ],
+          [
+            31.2,
+            309.4
+          ],
+          [
+            121.9,
+            309.4
+          ],
+          [
+            121.9,
+            297.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "Services include:",
+    "type": "NarrativeText"
+  },
+  {
+    "element_id": "710218c61edd3ea81a97b4f59d2ca874",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            320.1
+          ],
+          [
+            31.2,
+            332.1
+          ],
+          [
+            119.9,
+            332.1
+          ],
+          [
+            119.9,
+            320.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "UI/UX redesign",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "5f39fa1abc9acfd22543a31b1055e638",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            342.7
+          ],
+          [
+            31.2,
+            354.7
+          ],
+          [
+            179.9,
+            354.7
+          ],
+          [
+            179.9,
+            342.7
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "Backend API development",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "b53f534bd9e4ce8867545a81d0279a2d",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            365.4
+          ],
+          [
+            31.2,
+            377.4
+          ],
+          [
+            142.6,
+            377.4
+          ],
+          [
+            142.6,
+            365.4
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "Database migration",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "2eb6b30ba8bd540f8e16cd1a8c806751",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            388.1
+          ],
+          [
+            31.2,
+            400.1
+          ],
+          [
+            117.9,
+            400.1
+          ],
+          [
+            117.9,
+            388.1
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "QA and testing",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "88288127f9b568321f8a1350cd353623",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            410.8
+          ],
+          [
+            31.2,
+            422.8
+          ],
+          [
+            145.9,
+            422.8
+          ],
+          [
+            145.9,
+            410.8
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "Deployment support",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "81fcda96b31346e62f42841fc04a97b1",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            441.5
+          ],
+          [
+            31.2,
+            454.5
+          ],
+          [
+            162.7,
+            454.5
+          ],
+          [
+            162.7,
+            441.5
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "373ef8b03eed9dd997ec2306a9094798"
+    },
+    "text": "3. Commercial Terms",
+    "type": "ListItem"
+  },
+  {
+    "element_id": "f29fa05825f2be097baa9c113cfb2b38",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            464.6
+          ],
+          [
+            31.2,
+            476.6
+          ],
+          [
+            214.0,
+            476.6
+          ],
+          [
+            214.0,
+            464.6
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Total Contract Value: $150,000.00",
+    "type": "Title"
+  },
+  {
+    "element_id": "298a659b1651787391013171aa91f9af",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            487.3
+          ],
+          [
+            31.2,
+            499.3
+          ],
+          [
+            229.9,
+            499.3
+          ],
+          [
+            229.9,
+            487.3
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Payment: Upon milestone completion",
+    "type": "Title"
+  },
+  {
+    "element_id": "c310f2ae3ad27219a514cfa678050ba3",
+    "metadata": {
+      "coordinates": {
+        "layout_height": 841.89,
+        "layout_width": 595.28,
+        "points": [
+          [
+            31.2,
+            510.0
+          ],
+          [
+            31.2,
+            522.0
+          ],
+          [
+            252.0,
+            522.0
+          ],
+          [
+            252.0,
+            510.0
+          ]
+        ],
+        "system": "PixelSpace"
+      },
+      "file_directory": "/Users/newpage/Documents/Projects/Document-Parser/server/parser/input-files",
+      "filename": "sample_sow.pdf",
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2026-05-06T12:17:05",
+      "page_number": 1,
+      "parent_id": "5dba1e9539149f9dd7c6549035928acd"
+    },
+    "text": "Penalty: 1.5% per month for late payment",
+    "type": "Title"
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "document": {
+    "type": "statement_of_work",
+    "extraction_method": "fast",
+    "is_scanned": false,
+    "metadata": {
+      "filename": "sample_sow.pdf",
+      "file_size_bytes": 1635,
+      "mime_type": "application/pdf",
+      "page_count": 1,
+      "is_encrypted": false,
+      "creation_date": "2026-05-06T06:16:40+00:00",
+      "author": null,
+      "title": null,
+      "producer": null,
+      "layout_width": 595.28,
+      "layout_height": 841.89
+    }
+  },
+  "fields": {
+    "date": {
+      "value": "January 10, 2024",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "currency_amount": {
+      "value": "$150,000.00",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "reference_number": {
+      "value": "SOW Reference",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "email": {
+      "value": "sarah@dtp.com",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "percentage": {
+      "value": "1.5%",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "dollar_amount": {
+      "value": "$150,000.00",
+      "confidence": 1.0,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "invoice_date": {
+      "value": "January 10, 2024",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "total": {
+      "value": "Contract Value: $150,000.00",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "vendor_name": {
+      "value": "Digital Transformation Partners",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "client_name": {
+      "value": "GlobalRetail Inc",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "amount": {
+      "value": "Contract Value: $150,000.00",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "sow_reference": {
+      "value": "Reference: SOW-2024-Q1-042",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "project_name": {
+      "value": "Overview",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "effective_date": {
+      "value": "January 10, 2024",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "expiration_date": {
+      "value": "December 31, 2024",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    },
+    "payment_terms": {
+      "value": "# Total Contract Value: $150,000.00",
+      "confidence": 0.85,
+      "source": "rule",
+      "element_id": null,
+      "page": null,
+      "bbox": null,
+      "source_quote": null
+    }
+  },
+  "flagged_fields": [],
+  "elements": []
+}
