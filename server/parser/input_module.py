@@ -26,16 +26,26 @@ def extract_file_metadata(filepath: str) -> dict:
     kind = filetype.guess(filepath)
     mime_type = kind.mime if kind else "application/octet-stream"
 
-    # Extract PDF metadata
-    reader = pypdf.PdfReader(filepath)
-    page_count = len(reader.pages)
-    is_encrypted = reader.is_encrypted
-    pdf_meta = reader.metadata or {}
+    # Default values for non-PDF formats
+    page_count = 0
+    is_encrypted = False
+    creation_date = None
+    author = None
+    title = None
+    producer = None
 
-    creation_date = _parse_pdf_date(pdf_meta.get("/CreationDate"))
-    author = pdf_meta.get("/Author")
-    title = pdf_meta.get("/Title")
-    producer = pdf_meta.get("/Producer")
+    if mime_type == "application/pdf":
+        try:
+            reader = pypdf.PdfReader(filepath)
+            page_count = len(reader.pages)
+            is_encrypted = reader.is_encrypted
+            pdf_meta = reader.metadata or {}
+            creation_date = _parse_pdf_date(pdf_meta.get("/CreationDate"))
+            author = pdf_meta.get("/Author")
+            title = pdf_meta.get("/Title")
+            producer = pdf_meta.get("/Producer")
+        except Exception:
+            pass
 
     return {
         "filename": filename,

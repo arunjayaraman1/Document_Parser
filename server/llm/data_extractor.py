@@ -1,12 +1,9 @@
 """LLM-based data extraction (Step 2): Extract field values with source quotes."""
 
 import os
-import json
-import sys
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import instructor
-from extractor.models import ExtractionResult, ExtractedField, DetectedField
+from server.extractor.models import ExtractionResult, ExtractedField, DetectedField
 from .client import get_instructor_client
 
 

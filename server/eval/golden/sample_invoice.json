@@ -1,0 +1,8 @@
+{
+  "expected_doc_type": "invoice",
+  "fields": {
+    "invoice_number": "INV-001",
+    "total": "$1,234.56",
+    "invoice_date": "2024-01-10"
+  }
+}

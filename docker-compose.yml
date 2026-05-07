@@ -1,0 +1,37 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: document-parser:latest
+    container_name: document-parser-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      ENABLE_NER: ${ENABLE_NER:-1}
+      ENABLE_LLM: ${ENABLE_LLM:-1}
+    volumes:
+      - ./server/eval/fixtures:/app/server/eval/fixtures:ro
+      - model-cache:/home/app/.cache
+    restart: unless-stopped
+
+  eval:
+    image: document-parser:latest
+    profiles:
+      - eval
+    depends_on:
+      - api
+    command: ["python", "-m", "server.eval.run_eval", "--out", "/app/server/eval/results.json"]
+    env_file:
+      - .env
+    volumes:
+      - ./server/eval/fixtures:/app/server/eval/fixtures:ro
+      - ./server/eval/golden:/app/server/eval/golden:ro
+      - ./server/eval:/app/server/eval
+      - model-cache:/home/app/.cache
+
+volumes:
+  model-cache:
