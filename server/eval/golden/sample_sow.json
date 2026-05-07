@@ -1,0 +1,8 @@
+{
+  "expected_doc_type": "statement_of_work",
+  "fields": {
+    "sow_reference": "SOW-2024-001",
+    "project_name": "Sample Project",
+    "effective_date": "2024-01-15"
+  }
+}

@@ -1,11 +1,9 @@
 """LLM-based schema detection (Step 1): Identify document type and field names."""
 
 import os
-import sys
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import instructor
-from extractor.models import DocumentSchema, DetectedField
+from server.extractor.models import DocumentSchema, DetectedField
 from .client import get_instructor_client
 
 

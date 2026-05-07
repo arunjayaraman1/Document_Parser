@@ -1,42 +1,42 @@
-annotated-doc==0.0.4
-annotated-types==0.7.0
-anyio==4.13.0
-certifi==2026.4.22
-click==8.3.3
-dnspython==2.8.0
-email-validator==2.3.0
-fastapi==0.136.1
-fastapi-cli==0.0.24
-fastapi-cloud-cli==0.17.1
-fastar==0.11.0
-h11==0.16.0
-httpcore==1.0.9
-httptools==0.7.1
-httpx==0.28.1
-idna==3.13
-Jinja2==3.1.6
-markdown-it-py==4.0.0
-MarkupSafe==3.0.3
-mdurl==0.1.2
-pydantic==2.13.3
-pydantic-extra-types==2.11.1
-pydantic-settings==2.14.0
-pydantic_core==2.46.3
-Pygments==2.20.0
-python-dotenv==1.2.2
-python-multipart==0.0.27
-PyYAML==6.0.3
-rich==15.0.0
-rich-toolkit==0.19.7
-rignore==0.7.6
-sentry-sdk==2.59.0
-shellingham==1.5.4
-starlette==1.0.0
-typer==0.25.1
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-urllib3==2.6.3
-uvicorn==0.46.0
-uvloop==0.22.1
-watchfiles==1.1.1
-websockets==16.0
+# NOTE: torch is CPU-only here.  In Docker we install it separately from
+# https://download.pytorch.org/whl/cpu before this file is read so the CUDA
+# wheels are NEVER pulled.  For local installs run:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision
+# BEFORE `pip install -r requirements.txt`.
+
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+
+# Configuration
+python-dotenv>=1.0
+
+# File typing & PDF metadata
+filetype>=1.2
+pypdf>=4.0
+
+# Primary parser (multi-format + OCR + tables + layout) — MIT
+docling>=2.0
+
+# Secondary parsers — MIT
+pdfplumber>=0.11
+pdfminer.six>=20240706
+
+# Office/HTML auxiliary adapters — MIT/Apache
+python-docx>=1.1
+openpyxl>=3.1
+python-pptx>=1.0
+trafilatura>=1.12
+beautifulsoup4>=4.12
+
+# Zero-shot NER — Apache-2.0
+gliner>=0.2.13
+
+# LLM extraction — Apache-2.0
+instructor>=1.5
+openai>=1.40
+
+# Utilities
+python-dateutil>=2.9
