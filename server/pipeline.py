@@ -20,6 +20,7 @@ def _build_extractors():
     from server.extractors.keyword_extractor import KeywordExtractor
     from server.extractors.spatial_extractor import SpatialExtractor
     from server.extractors.table_extractor import TableExtractor
+    from server.extractors.table_kv_extractor import TableKVExtractor
     from server.extractors.section_extractor import SectionExtractor
     from server.extractors.ner_extractor import NerExtractor
     from server.extractors.llm_extractor import LlmExtractor
@@ -29,6 +30,7 @@ def _build_extractors():
         KeywordExtractor(),
         SpatialExtractor(),
         TableExtractor(),
+        TableKVExtractor(),
         SectionExtractor(),
         NerExtractor(),
         LlmExtractor(),
