@@ -23,8 +23,8 @@ def extract_fields(
     Returns:
         ExtractionResult with extracted field values and confidence scores
     """
-    model = os.getenv("LLM_EXTRACT_MODEL", "qwen/qwen3-30b-a3b")
-    max_retries = int(os.getenv("LLM_MAX_RETRIES", "3"))
+    model = os.getenv("LLM_EXTRACT_MODEL")
+    max_retries = int(os.getenv("LLM_MAX_RETRIES"))
 
     client = get_instructor_client(mode=instructor.Mode.TOOLS)
 

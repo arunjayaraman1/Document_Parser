@@ -19,14 +19,14 @@ def detect_schema(markdown_text: str) -> DocumentSchema:
     Returns:
         DocumentSchema with detected document type and field list
     """
-    model = os.getenv("LLM_SCHEMA_MODEL", "qwen/qwen-2.5-7b-instruct")
-    max_retries = int(os.getenv("LLM_MAX_RETRIES", "3"))
+    model = os.getenv("LLM_SCHEMA_MODEL")
+    max_retries = int(os.getenv("LLM_MAX_RETRIES"))
 
     client = get_instructor_client(mode=instructor.Mode.TOOLS)
 
     system_prompt = """You are a document classification expert. Analyze the provided document and:
 
-1. Classify the document type (invoice, contract, statement of work, purchase order, receipt, proposal, or other)
+1. Classify the document type based on its content and structure.
 2. Identify all meaningful data fields present in the document
 
 Return the classification with a confidence score (0.0-1.0) and a list of field names in snake_case.
